@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Event Handling -->
+  <button id="changeTextBtn">Click Me!</button>
+  <div id="hoverBox">Hover over me!</div>
+  <input type="text" id="keypressInput" placeholder="Type something...">
+  <div id="secretAction">Double-click or long press here</div>
+
+  <!-- Interactive Elements -->
+  <div class="image-gallery">
+    <img id="galleryImage" src="img1.jpg" alt="Gallery">
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <div class="tab-content" id="tab1">Content 1</div>
+    <div class="tab-content" id="tab2" style="display:none;">Content 2</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="signupForm">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <span id="feedback"></span>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
